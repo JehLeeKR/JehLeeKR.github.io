@@ -307,12 +307,18 @@
         .btn-icon {
             display: inline-block;
             vertical-align: middle;
-            margin-right: 8px;
+            margin-right: 5px;
+            padding: 4px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            line-height: 0;
+            transition: background-color 0.3s ease;
         }
 
         .btn-icon img {
             height: 24px;
-            transition: opacity 0.3s ease;
+            width: auto;
+            vertical-align: middle;
         }
 
         .btn-icon:hover img {
@@ -529,50 +535,188 @@
             <h2>Research Publications</h2>
             
             <h3>Conference Papers</h3>
-            <ul class="publication-list">
-                <li>
+            <div class="publication-group">
+                <h4>2024</h4>
+                <ul class="publication-list">
+                    <li>
                     Jehyun Lee, Peiyuan Lim, Bryan Hooi, and Dinil Mon Divakaran, "Multimodal large language models for phishing webpage detection and identification", APWG Symposium on Electronic Crime Research (eCrime), Sep. 2024.
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2408.05941" class="btn-icon" title="Paper on arXiv" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg" alt="arXiv"></a>
-                        <a href="https://github.com/jehleekr/multimodal_llm_phishing_detection" class="btn btn-code" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a href="https://github.com/jehleekr/multimodal_llm_phishing_detection" class="btn-icon" title="Code on GitHub" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
                     </div>
-                </li>
-                <li>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2023</h4>
+                <ul class="publication-list">
+                    <li>
                     Jehyun Lee, Zhe Xin, Melanie Ng Pei See, Kanav Sabharwal, Giovanni Apruzzese, and Dinil Mon Divakaran, "Attacking logo-based phishing website detectors with adversarial perturbations", European Symposium on Research in Computer Security (ESORICS), Jul. 2023.
                      <div class="paper-links">
                         <a href="https://arxiv.org/abs/2308.09392" class="btn-icon" title="Paper on arXiv" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg" alt="arXiv"></a>
-                        <!-- <a href="https://www.dinil.net/publications" class="btn" target="_blank" rel="noopener noreferrer">Resource</a> -->
                     </div>
-                </li>
-                <li>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2022</h4>
+                <ul class="publication-list">
+                    <li>
                     Jehyun Lee, Farren Tang, Phyo May Thet, Desmond Yeoh, Mitch Rybczynski, and Dinil Mon Divakaran, "Sierra: Ranking anomalous activities in enterprise networks", IEEE European Symposium on Security and Privacy (Euro S&P), Jul. 2022.
                      <div class="paper-links">
                         <a href="https://arxiv.org/abs/2203.16802" class="btn-icon" title="Paper on arXiv" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg" alt="arXiv"></a>
                     </div>
-                </li>
-                <li>
+                    </li>
+                    <li>
                     Jehyun Lee, Min Suk Kang, Dinil Mon Divakaran, Phyo May Thet, Videet Singhai and Jun Seung You, "A Step Towards On-Path Security Function Outsourcing", International Conference on Distributed Computing and Networking (ICDCN), Jan. 2022.
                      <div class="paper-links">
                         <a href="https://arxiv.org/abs/2110.00250" class="btn btn-disabled">Paper</a>
                     </div>
-                </li>
-                 <li>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2021</h4>
+                <ul class="publication-list">
+                    <li>
                     Jehyun Lee, Farren Tang, Pingxiao Ye, Fahim Abbasi, Phil Hay, and Dinil Mon Divakaran, "D-Fence: A Flexible, Efficient, and Comprehensive Phishing Email Detection System", IEEE European Symposium on Security and Privacy (Euro S&P), Sep. 2021.
                      <div class="paper-links">
                         <a href="https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1yg1cTL1ey4/pdf" class="btn" target="_blank" rel="noopener noreferrer">Paper</a>
                         <a href="https://www.ieee-security.org/TC/EuroSP2021/slides/Jehyun%20Lee%20-%20Jehyun%20Lee-D-FENCE_A%20Flexible%2C%20Efficient%2C%20and%20Comprehensive%20Phishing%20Email%20Detection%20System.pdf" class="btn" target="_blank" rel="noopener noreferrer">Slide</a>
                         <a href="https://www.youtube.com/watch?v=plkRwYCxp60" class="btn-icon" title="Presentation on YouTube" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube"></a>
-                        
                     </div>
-                </li>
-                 <li>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2020</h4>
+                <ul class="publication-list">
+                    <li>
                     Jehyun Lee, Pingxiao Ye, Ruofan Liu, Dinil Mon Divakaran, and Mun Chun Chan, "Building Robust Phishing Detection System: an Empirical Analysis", NDSS Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb), Feb. 2020.
                      <div class="paper-links">
-                        <a href="https://www.ndss-symposium.org/wp-content/uploads/2020/02/23007-paper.pdf" class="btn">Paper</a>
-                        <a href="https://github.com/JehLeeKR/phishing-madweb" class="btn">Dataset</a>
+                        <a href="https://www.ndss-symposium.org/wp-content/uploads/2020/02/23007-paper.pdf" class="btn" target="_blank" rel="noopener noreferrer">Paper</a>
+                        <a href="https://github.com/JehLeeKR/phishing-madweb" class="btn-icon" title="Dataset on GitHub" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
                     </div>
-                </li>
+                    </li>
                 </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2019</h4>
+                <ul class="publication-list">
+                    <li>
+                    Jehyun Lee, Akshaya Venkateswara Raja, and Debin Gao, "Split Second: Flexible Privilege Separation of Android Apps", Intl. Conf. on Privacy, Security and Trust (PST), Aug. 2019.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2017</h4>
+                <ul class="publication-list">
+                    <li>
+                    Akshaya Venkateswara Raja, Jehyun Lee, and Debin Gao, "On Return Oriented Programming Threats in Android Runtime.", Intl. Conf. on Privacy, Security and Trust (PST), Aug. 28. 2017.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2015</h4>
+                <ul class="publication-list">
+                    <li>
+                    Choongin Lee, Jehyun Lee, Sangwook Lee, Heejo Lee, "Integrity Verification of Video Files in a Video Event Data Recorder", Intl. Conf. on Internet (ICONI), Dec. 14. 2015.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2014</h4>
+                <ul class="publication-list">
+                    <li>
+                    Jonghoon Kwon, Jihwan Jeong, Jehyun Lee, Heejo Lee, "DroidGraph: Discovering Android Malware by Analyzing Semantic Behavior", IEEE Conf. on Communication and Network Security, pp. 345-346, Oct. 30. 2014.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                    <li>
+                    Jonghoon Kwon, Jeongsik Kim, Jehyun Lee, Heejo Lee, Adrian Perrig, "PsyBoG: Power Spectral Density Analysis for Detecting Botnet Groups", IEEE MALWARE, pp. 85-92, Oct. 29. 2014.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2013</h4>
+                <ul class="publication-list">
+                    <li>
+                    Suyeon Lee, Jehyun Lee, Heejo Lee, "Screening Smartphone Applications using Behavioral Signatures", IFIP Int'l Information Security and Privacy Conference (SEC), July. 8. 2013.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2011</h4>
+                <ul class="publication-list">
+                    <li>
+                    Jonghoon Kwon, Jehyun Lee, Heejo Lee, "Hidden Bot Detection by Tracing Non-human Generated Traffic at the Zombie Host", Information Security Practice and Experience Conference (ISPEC), May. 30. 2011.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2010</h4>
+                <ul class="publication-list">
+                    <li>
+                    Jonghoon Kwon, Jehyun Lee, Taebum Kim, Heejo Lee, "Subgraph-based Metamorphic Malwares Analysis", Int'l Conf. on Internet (ICONI), pp. 855-856, Dec. 2010.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                    <li>
+                    Jehyun Lee, Jonghoon Kwon, Hyo-Jeong Shin, Heejo Lee, "Grouping Domain Names using DNS Query Graph", Int'l Conf. on Internet (ICONI), pp. 853-854, Dec. 2010. 
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                    <li>
+                    Jehyun Lee, Jonghoon Kwon, Hyo-Jeong Shin, Heejo Lee, "Tracking Multiple C&C Botnets by Analyzing DNS Traffic", Workshop on Secure Network Protocols (NPSEC), pp. 67-72, Oct. 5. 2010. [cite: 82]
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2009</h4>
+                <ul class="publication-list">
+                    <li>
+                    Jehyun Lee, Heejo Lee, Hoh Peter In, "Scalable Attack Graph for Risk Assessment", Int'l Conf. on Information Networking (ICOIN), Jan. 21. 2009.
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="publication-group">
+                <h4>2007</h4>
+                <ul class="publication-list">
+                    <li>
+                    Euijin Choo, Jehyun Lee, Heejo Lee, Giwon Nam, "SRMT: A Lightweight Encryption Scheme for Secure Real-time Multimedia Transmission", Int'l Conf. on Multimedia and Ubiquitous Engineering (MUE), pp. 60-65, Apr. 2007
+                     <div class="paper-links">
+                        <a href="#" class="btn btn-disabled">Paper</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
             
             <h3>Journal Papers</h3>
             <ul class="publication-list">
@@ -618,12 +762,11 @@
                      <div class="skills-list">
                         <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow"><span>TensorFlow</span></div>
                         <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch"><span>PyTorch</span></div>
-                        <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Weka_%28software%29_logo.png" alt="Weka"><span>Weka</span></div>
+                        <div class="skill-item"><img src="https://www.cs.waikato.ac.nz/ml/weka/weka_logo.png" alt="Weka"><span>Weka</span></div>
                         <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS"><span>AWS</span></div>
                         <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git"><span>Git</span></div>
                         <div class="skill-item"><img src="https://www.vectorlogo.zone/logos/bitbucket/bitbucket-icon.svg" alt="Bitbucket"><span>Bitbucket</span></div>
-                        <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Subversion-logo.svg/1200px-Subversion-logo.svg.png" alt="SVN"><span>SVN</span></div>
-                        <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/New_Mercurial_logo.svg" alt="Mercurial"><span>Mercurial</span></div>
+                        <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Subversion-logo.svg" alt="SVN"><span>SVN</span></div>
                         <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Vmware.svg" alt="VMware"><span>VMware/ESXi</span></div>
                     </div>
                 </div>
